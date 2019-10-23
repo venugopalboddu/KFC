@@ -1,0 +1,100 @@
+.bur{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.nom{
+    position: relative;
+    left: 20px;
+}
+.fan{
+    position: relative;
+    left: 270px;
+}
+.fn{
+    position: relative;
+    left: 230px;
+    width:110px;
+    height: 30px;
+}
+
+  img:hover {
+    opacity: 0.6;
+  }
+  
+  .card:hover .middle{
+    opacity: 1;
+  }
+  .middle {
+    transition: .5s ease;
+    font-size:20px;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+  .bton{
+    background: #B6001C;
+    border: none;
+    border-radius:2px;
+    float:right;
+    color:white 
+}
+img{
+    width:100%;
+    opacity:1;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+img:hover{
+    opacity: 0.3;
+}
+.para{
+  transition: .5s ease;
+  font-size:20px;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+img:hover .para{
+  opacity: 1;
+}
+
+
+.img1{
+  height: 50px;
+  width: 20px;
+  margin:8px;
+  }
+  .botn{
+      padding: 10px 30px;
+      background: white;
+      border: none;
+      border-right: 1px solid black
+  }
+  .botn:hover{
+    background: red;
+    color:white;
+}
+  .sticky {
+      position: sticky;
+      background: white
+   }
+
+   

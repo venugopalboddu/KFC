@@ -1,0 +1,35 @@
+<div class="container"> 
+    <a href="#"><img [ngClass]="['logo']" src="/assets/logo.png"></a><span *ngIf="status" [ngClass]="['name']">Hello  {{name}}</span>
+    <button [ngClass]="['but']"  ><strong *ngIf="ss" (click)="login()">{{si|uppercase}}</strong><strong *ngIf="sos" (click)="signout()">{{so|uppercase}}</strong></button>
+    <a   href="#"><img [ngClass]="['link']" src="/assets/logo1.png"></a>
+</div>
+<div [ngClass]="['div1','sticky-top']" >
+    <div class="container">
+            <div class="row">
+                    <div class="col-6">
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" [ngClass]="['link']" routerLink="/offers">OFFERS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" [ngClass]="['link']" routerLink="/menu">MENU</a>
+                      </li>
+                    </ul>
+                    </div> 
+                    <div class="col-6">
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item">
+                            <button class="btn btn-danger" routerLink="/cart" type="submit"><strong>START MY ORDER</strong></button>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link"  *ngIf="srch" (click)="search()" [ngClass]="['a1']"><span [ngClass]="['icon']" class="glyphicon glyphicon-search" ></span></a>
+                        <a class="nav-link"  *ngIf="cancl" (click)="cancel()" [ngClass]="['a1']"><b [ngClass]="['icon']">&#9747;</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" routerLink="/cart" [ngClass]="['icon']"><span class="glyphicon glyphicon-shopping-cart" style="margin-right:80px" ></span></a>
+                      </li>
+                    </ul>
+                    </div>
+                    </div>
+             </div>
+</div>

@@ -1,0 +1,32 @@
+.bton{
+    background: #B6001C;
+    border: none;
+    border-radius:2px;
+    float:right;
+    color:white 
+}
+.img1{
+    width:100%;
+    opacity:1;
+}
+.spn1{
+    text-decoration: line-through;
+    color:red
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.img1:hover{
+    opacity: 0.3;
+}
+.para{
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+}
+.img1:hover .para{
+    opacity: 1;
+}

@@ -1,0 +1,800 @@
+{
+  "burger": [
+    {
+      "id": 101,
+      "pic": "/assets/bb.jpg",
+      "name": "Zinger Doubles",
+      "price2": 219,
+      "qprice": 219,
+      "quantity": 1,
+      "para": "2 Chicken Zingers at an unbelievable price. Limited time only."
+    },
+    {
+      "id": 102,
+      "pic": "/assets/b1.jpg",
+      "name": "5 in 1 Zinger Box",
+      "price2": 239,
+      "qprice": 239,
+      "quantity": 1,
+      "para": "The perfect zinger of a meal! Chicken Zinger,2 Hot wings,1 Veg strips, Pillsbury cookie cake & Pepsi can"
+    },
+    {
+      "id": 103,
+      "pic": "/assets/b2.jpg",
+      "name": "Chicken Zinger Combo",
+      "price2": 164,
+      "qprice": 164,
+      "quantity": 1,
+      "para": "KFC's classic Chicken Zinger Burger with 2 pcs of Hot & Crispy Hot Wings"
+    },
+    {
+      "id": 104,
+      "pic": "/assets/b4.jpg",
+      "name": "Zinger Combo",
+      "price2": 229,
+      "qprice": 229,
+      "quantity": 1,
+      "para": "Enjoy the Chicken Zinger burger with 1pc Hot & Crispy or 1pc Smoky Red,served with Pepsi."
+    },
+    {
+      "id": 105,
+      "pic": "/assets/b5.jpg",
+      "name": "KFC Favorites",
+      "price2": 375,
+      "qprice": 375,
+      "quantity": 1,
+      "para": "Enjoy the best of KFC with Chicken Zinger, 4 Hot Wings and a Large Popcorn!"
+    },
+    {
+      "id": 106,
+      "pic": "/assets/b6.jpg",
+      "name": "KFC Favorites Meal",
+      "price2": 399,
+      "qprice": 399,
+      "quantity": 1,
+      "para": "Treat yourself to KFC meal with Chicken Zinger, 4 Hot Wings, Large popcorn and a Pepsi Can."
+    },
+    {
+      "id": 107,
+      "pic": "/assets/are.jpg",
+      "name": "Chicken Zinger",
+      "price2": 159,
+      "qprice": 159,
+      "quantity": 1,
+      "para": "Colonel's signature Zinger chicken, an extra crispy fillet packed in a soft corn bun with lettuce & mayo!"
+    },
+    {
+      "id": 108,
+      "pic": "/assets/you.jpg",
+      "name": "Veg Zinger",
+      "price2": 149,
+      "qprice": 149,
+      "quantity": 1,
+      "para": "Crispy all-veg patty packed inside a soft corn bun with fresh lettuce and thousand island sauce."
+    },
+    {
+      "id": 109,
+      "pic": "/assets/haa.jpg",
+      "name": "Chicken Zinger Meal",
+      "price2": 169,
+      "qprice": 169,
+      "quantity": 1,
+      "para": "Enjoy Colonel's signature Chicken Zinger Burger with Pepsi to quench your thirst."
+    }
+  ],
+  "chicken": [
+    {
+      "id": 201,
+      "pic": "assets/chicken1.jpg",
+      "name": "8 Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 650,
+      "qprice": 650,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 202,
+      "pic": "assets/chicken2.jpg",
+      "name": "Frindship Bucket",
+      "btn": "ADD TO CART",
+      "price2": 650,
+      "qprice": 650,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 203,
+      "pic": "assets/chicken3.jpg",
+      "name": "Triple Treat",
+      "btn": "ADD TO CART",
+      "price2": 675,
+      "qprice": 675,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 204,
+      "pic": "assets/chicken4.jpg",
+      "name": "Big 8",
+      "btn": "ADD TO CART",
+      "price2": 499,
+      "qprice": 499,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 205,
+      "pic": "assets/chicken5.jpg",
+      "name": "6Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 550,
+      "qprice": 550,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 206,
+      "pic": "assets/chicken6.jpg",
+      "name": "Big 8 Meal",
+      "btn": "ADD TO CART",
+      "price2": 649,
+      "qprice": 649,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 207,
+      "pic": "assets/chicken7.jpg",
+      "name": "Dips Bucket-12Pcs",
+      "btn": "ADD TO CART",
+      "price2": 500,
+      "qprice": 500,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 208,
+      "pic": "assets/chicken8.jpg",
+      "name": "5 Pc Smoky Red Grilled ",
+      "btn": "ADD TO CART",
+      "price2": 299,
+      "qprice": 299,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 209,
+      "pic": "assets/chicken9.jpg",
+      "name": "4Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 380,
+      "qprice": 380,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 210,
+      "pic": "assets/chicken10.jpg",
+      "name": "Playing 11 Meal",
+      "btn": "ADD TO CART",
+      "price2": 599,
+      "qprice": 599,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 211,
+      "pic": "assets/chicken11.jpg",
+      "name": "KFC Favorites Meal",
+      "btn": "ADD TO CART",
+      "price2": 399,
+      "qprice": 399,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "id": 212,
+      "pic": "assets/chicken12.jpg",
+      "name": "Duo Bucket Meal",
+      "btn": "ADD TO CART",
+      "price2": 500,
+      "qprice": 500,
+      "quantity": 1,
+      "para": "i am chicken"
+    }
+  ],
+  "navbar": [
+    {
+      "name": "CHICKEN",
+      "pic": "/assets/chicken.png",
+      "url": "/chicken1"
+    },
+    {
+      "name": "BURGER",
+      "pic": "/assets/burger.jpeg",
+      "url": "/burgers"
+    },
+    {
+      "name": "RICE BOWLZ",
+      "pic": "/assets/ricebowl.jpg",
+      "url": "/ricebowl"
+    },
+    {
+      "name": "SNACKS",
+      "pic": "/assets/snacks.jpg",
+      "url": "/snacks"
+    },
+    {
+      "name": "BEVERAGES",
+      "pic": "/assets/pepsi.png",
+      "url": "/beverages"
+    }
+  ],
+  "offers": [
+    {
+      "id": 301,
+      "pic": "/assets/offer1.png",
+      "name": "APPY3",
+      "btn": "ADD TO CART",
+      "price1": "210",
+      "price2": "199",
+      "qprice": "199",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 302,
+      "pic": "/assets/offer2.png",
+      "name": "Airtel Coupon",
+      "btn": "ADD TO CART",
+      "price1": "325",
+      "price2": "299",
+      "qprice": "299",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 303,
+      "pic": "/assets/offer3.jpg",
+      "name": "FLAT10",
+      "btn": "ADD TO CART",
+      "price1": "450",
+      "price2": "399",
+      "qprice": "399",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 304,
+      "pic": "/assets/offer4.jpg",
+      "name": "FLAT15",
+      "btn": "ADD TO CART",
+      "price1": "550",
+      "price2": "499",
+      "qprice": "499",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 305,
+      "pic": "/assets/offer5.jpg",
+      "name": "Zinger Doubles",
+      "btn": "ADD TO CART",
+      "price1": "300",
+      "price2": 219,
+      "qprice": 219,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 306,
+      "pic": "/assets/offer6.jpg",
+      "name": "Popcorn Rice Combo",
+      "btn": "ADD TO CART",
+      "price1": "275",
+      "price2": 219,
+      "qprice": 219,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 307,
+      "pic": "/assets/offer7.jpg",
+      "name": "Zinger Combo",
+      "btn": "ADD TO CART",
+      "price1": "290",
+      "price2": 229,
+      "qprice": 229,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 308,
+      "pic": "/assets/offer8.jpg",
+      "name": "Big 8",
+      "btn": "ADD TO CART",
+      "price1": "700",
+      "quantity": 1,
+      "price2": 650,
+      "qprice": 650,
+      "para": "i am First"
+    },
+    {
+      "id": 309,
+      "pic": "/assets/offer9.jpg",
+      "name": "KFC Favorites Meal",
+      "btn": "ADD TO CART",
+      "price1": "510",
+      "price2": 399,
+      "qprice": 399,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 310,
+      "pic": "/assets/offer10.jpg",
+      "name": "KFC Favorites",
+      "btn": "ADD TO CART",
+      "price1": "480",
+      "price2": 375,
+      "qprice": 375,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 311,
+      "pic": "/assets/offer11.jpg",
+      "name": "Playing 11",
+      "btn": "ADD TO CART",
+      "price1": "500",
+      "price2": 449,
+      "qprice": 449,
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 312,
+      "pic": "/assets/offer12.jpg",
+      "name": "KFC 4+4",
+      "btn": "ADD TO CART",
+      "price1": "578",
+      "price2": 380,
+      "qprice": 380,
+      "quantity": 1,
+      "para": "i am First"
+    }
+  ],
+  "bodypics": [
+    {
+      "url": "/assets/img1.png",
+      "name": "chicken",
+      "linkurl": "/chicken1"
+    },
+    {
+      "url": "/assets/img2.png",
+      "name": "burgers",
+      "linkurl": "/burgers"
+    },
+    {
+      "url": "/assets/img3.png",
+      "name": "rice bowlz",
+      "linkurl": "/ricebowl"
+    },
+    {
+      "url": "/assets/img4.png",
+      "name": "snacks",
+      "linkurl": "/snacks"
+    },
+    {
+      "url": "/assets/img5.png",
+      "name": "bevarages",
+      "linkurl": "/beverages"
+    }
+  ],
+  "signup": [
+    {
+      "firstname": "Inthiyaz",
+      "lastname": "Basha",
+      "mobile": "9949960894",
+      "email": "inthiyazbasha9876@gmail.com",
+      "password": "Inthiyaz@1",
+      "check1": true,
+      "check2": true,
+      "id": 1
+    },
+    {
+      "firstname": "praneeth",
+      "lastname": "k",
+      "mobile": "8309942682",
+      "email": "praneethchinnu79@gmail.com",
+      "password": "123456789",
+      "check1": true,
+      "check2": true,
+      "id": 2
+    },
+    {
+      "firstname": "seelasudheer",
+      "lastname": "findway",
+      "mobile": "78900635678",
+      "email": "sudheerkumar.maturi@ojas-it.com",
+      "password": "1234567890",
+      "check1": true,
+      "check2": true,
+      "id": 3
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "check1": "",
+      "check2": "",
+      "id": 4
+    },
+    {
+      "firstname": "seelasudheer",
+      "lastname": "findway",
+      "mobile": "78900635678",
+      "email": "sudheerkumar.maturi@ojas-it.com",
+      "password": "12345678",
+      "check1": true,
+      "check2": true,
+      "id": 5
+    },
+    {
+      "firstname": "prasanna",
+      "lastname": "kumar",
+      "mobile": "9573950366",
+      "email": "kumar.prasanna56@gmail.com",
+      "password": "123456",
+      "check1": true,
+      "check2": true,
+      "id": 6
+    },
+    {
+      "firstname": "Neelima",
+      "lastname": "Gada",
+      "mobile": "1234567890",
+      "email": "neelima.gada@ojas-it.com",
+      "password": "12345678",
+      "check1": true,
+      "check2": true,
+      "id": 7
+    },
+    {
+      "firstname": "Venugopal",
+      "lastname": "Boddu",
+      "mobile": "8897917920",
+      "email": "venugopal@gmail.com",
+      "password": "Venugopal@88",
+      "check1": true,
+      "check2": true,
+      "id": 8
+    },
+    {
+      "firstname": "Mahesh",
+      "lastname": "Rapolu",
+      "mobile": "8896547820",
+      "email": "mahesh@gmail.com",
+      "password": "Mahesh@88",
+      "check1": true,
+      "check2": true,
+      "id": 9
+    }
+  ],
+  "rice": [
+    {
+      "pic": "assets/rice1.jpg",
+      "name": "Popcorn Rice Combo",
+      "btn": "ADD TO CART",
+      "price2": 650,
+      "qprice": 650,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 401
+    },
+    {
+      "pic": "assets/rice2.jpg",
+      "name": "Popcorn Rice duo",
+      "btn": "ADD TO CART",
+      "price2": 650,
+      "qprice": 650,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 402
+    },
+    {
+      "pic": "assets/rice3.jpg",
+      "name": "5 in 1 - Rice Box",
+      "btn": "ADD TO CART",
+      "price2": 675,
+      "qprice": 675,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 403
+    },
+    {
+      "pic": "assets/rice4.jpg",
+      "name": "Smoky Red Rice Bowl & Pepsi",
+      "btn": "ADD TO CART",
+      "price2": 499,
+      "qprice": 499,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 404
+    },
+    {
+      "pic": "assets/rice5.jpg",
+      "name": "Smoky Red Rice Bowl",
+      "btn": "ADD TO CART",
+      "price2": 550,
+      "qprice": 550,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 405
+    },
+    {
+      "pic": "assets/rice6.jpg",
+      "name": "Chicken Rice Bowl",
+      "btn": "ADD TO CART",
+      "price2": 649,
+      "qprice": 649,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 406
+    },
+    {
+      "pic": "assets/rice7.jpg",
+      "name": "Chicken Rice Bowl & Pepsi",
+      "btn": "ADD TO CART",
+      "price2": 500,
+      "qprice": 500,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 407
+    },
+    {
+      "pic": "assets/rice8.jpg",
+      "name": "Veg Rice Bowl & Pepsi",
+      "btn": "ADD TO CART",
+      "price2": 299,
+      "qprice": 299,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 408
+    },
+    {
+      "pic": "assets/rice9.jpg",
+      "name": "Veg Rice Bowl",
+      "btn": "ADD TO CART",
+      "price2": 380,
+      "qprice": 380,
+      "quantity": 1,
+      "para": "i am rice",
+      "id": 409
+    }
+  ],
+  "snacks": [
+    {
+      "pic": "assets/snacks1.jpg",
+      "name": "Large Popcorn",
+      "btn": "ADD TO CART",
+      "price2": 200,
+      "qprice": 200,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 501
+    },
+    {
+      "pic": "assets/snacks2.jpg",
+      "name": "6pc Smoky Red Wings",
+      "btn": "ADD TO CART",
+      "price2": 165,
+      "qprice": 165,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 502
+    },
+    {
+      "pic": "assets/snacks3.jpg",
+      "name": "6Pc Boneless Strips",
+      "btn": "ADD TO CART",
+      "price2": 675,
+      "qprice": 675,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 503
+    },
+    {
+      "pic": "assets/snacks4.jpg",
+      "name": "4pc Hot Wings",
+      "btn": "ADD TO CART",
+      "price2": 499,
+      "qprice": 499,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 504
+    },
+    {
+      "pic": "assets/snacks5.jpg",
+      "name": "3Pc Boneless Strips",
+      "btn": "ADD TO CART",
+      "price2": 140,
+      "qprice": 140,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 505
+    },
+    {
+      "pic": "assets/snacks6.jpg",
+      "name": "4Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 380,
+      "qprice": 380,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 506
+    },
+    {
+      "pic": "assets/snacks7.jpg",
+      "name": "2Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 200,
+      "qprice": 200,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 507
+    },
+    {
+      "pic": "assets/snacks8.jpg",
+      "name": "4Pc Veg Strips",
+      "btn": "ADD TO CART",
+      "price2": 130,
+      "qprice": 130,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 508
+    },
+    {
+      "pic": "assets/snacks9.jpg",
+      "name": "2Pc Smoky Red Grilled",
+      "btn": "ADD TO CART",
+      "price2": 110,
+      "qprice": 110,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 509
+    },
+    {
+      "pic": "assets/snacks10.jpg",
+      "name": "1Pc Smoky Red Grilled",
+      "btn": "ADD TO CART",
+      "price2": 110,
+      "qprice": 110,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 509
+    }
+  ],
+  "beverages": [
+    {
+      "pic": "assets/beverages1.jpg",
+      "name": "Pepsi Can",
+      "btn": "ADD TO CART",
+      "price2": 30,
+      "qprice": 30,
+      "quantity": 1,
+      "para": "i am beverages",
+      "id": 601
+    },
+    {
+      "pic": "assets/beverages2.jpg",
+      "name": "Pepsi",
+      "btn": "ADD TO CART",
+      "price2": 60,
+      "qprice": 60,
+      "quantity": 1,
+      "para": "i am beverages",
+      "id": 602
+    },
+    {
+      "pic": "assets/beverages3.jpg",
+      "name": "Red Bull Energy Drink",
+      "btn": "ADD TO CART",
+      "price2": 140,
+      "qprice": 140,
+      "quantity": 1,
+      "para": "i am beverages",
+      "id": 603
+    }
+  ],
+  "cart": [
+    {
+      "id": 204,
+      "pic": "assets/chicken4.jpg",
+      "name": "Big 8",
+      "btn": "ADD TO CART",
+      "price2": 499,
+      "qprice": 2495,
+      "quantity": 5,
+      "para": "i am chicken"
+    },
+    {
+      "id": 303,
+      "pic": "/assets/offer3.jpg",
+      "name": "FLAT10",
+      "btn": "ADD TO CART",
+      "price1": "450",
+      "price2": "399",
+      "qprice": "399",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 302,
+      "pic": "/assets/offer2.png",
+      "name": "Airtel Coupon",
+      "btn": "ADD TO CART",
+      "price1": "325",
+      "price2": "299",
+      "qprice": "299",
+      "quantity": 1,
+      "para": "i am First"
+    },
+    {
+      "id": 201,
+      "pic": "assets/chicken1.jpg",
+      "name": "8 Pc Hot & Crispy",
+      "btn": "ADD TO CART",
+      "price2": 650,
+      "qprice": 650,
+      "quantity": 1,
+      "para": "i am chicken"
+    },
+    {
+      "pic": "assets/snacks4.jpg",
+      "name": "4pc Hot Wings",
+      "btn": "ADD TO CART",
+      "price2": 499,
+      "qprice": 499,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 504
+    },
+    {
+      "pic": "assets/snacks10.jpg",
+      "name": "1Pc Smoky Red Grilled",
+      "btn": "ADD TO CART",
+      "price2": 110,
+      "qprice": 110,
+      "quantity": 1,
+      "para": "i am snacks",
+      "id": 509
+    }
+  ],
+  "footer": [
+    {
+      "name": "ABOUT KFC"
+    },
+    {
+      "name": "GIFT CARD"
+    },
+    {
+      "name": "FEEDBACK"
+    },
+    {
+      "name": "CONTACT US"
+    },
+    {
+      "name": "BRAND T & C"
+    },
+    {
+      "name": "OFFERS T & C"
+    },
+    {
+      "name": "SITE MAP"
+    }
+  ]
+}

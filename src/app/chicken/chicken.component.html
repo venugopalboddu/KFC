@@ -1,0 +1,8 @@
+<div [ngClass]="['sticky']">
+<div class="container">
+<div class="row">
+    <button *ngFor="let n of navdata" [ngClass]="['botn']"><img src="{{n.pic}}">{{n.name}}</button>
+</div>
+</div>
+</div>
+

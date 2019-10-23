@@ -1,0 +1,23 @@
+<div class="container-fluid shadow rounded">
+    <div class="container">
+        <div class="row">
+        <span [ngClass]="['ab']" *ngFor="let i of details">
+            <p><b>{{i.name}}</b></p>
+        </span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span> <i class="fa fa-mobile-phone" style="font-size:40px"></i>&nbsp;&nbsp;
+        <img [ngClass]="['abcd']" src="assets/1.png" style="width:70px">
+        <img [ngClass]="['abcd']" src="assets/2.png" style="width:70px">
+    </span>
+    </div>
+    <hr>
+        <div>
+        <i class="fa fa-facebook-official"  [ngClass]="['ab']" style="font-size:40px;color:blue"></i> 
+        <i class="fa fa-instagram"  [ngClass]="['ab']" style="font-size:40px;color:purple"></i>
+        <i class="fa fa-youtube-play"  [ngClass]="['ab']" style="font-size:40px;color:red"></i>
+        <span class="text"  [ngClass]="['abc']"> © Copyright 2019 KFC. All Rights </span>
+    </div>
+    <small><p class="center">Food shown are for illustration purpose only. Actual product may differ from the images shown in this website. Our menu prices are now inclusive of GST.* The KFC name, logos, 
+        <br>and related marks are trademarks of KFC, Inc. All chicken products contain Monosodium Glutamate. Not recommended for infants below 12 months.</p></small>
+    </div>
+    </div>

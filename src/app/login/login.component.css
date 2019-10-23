@@ -1,0 +1,8 @@
+.bttn{
+    border:none;
+    border-radius: 5px;
+    background: #B6001C;
+    color:white;
+    width:5%;
+    text-align: center;
+}

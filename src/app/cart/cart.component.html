@@ -1,0 +1,122 @@
+<div class="container">
+    <a routerLink="/menu" style="color:black"><mat-icon style="float:right">clear</mat-icon></a>   
+    </div>
+    <br><br>
+    <div class="container">
+        <!-- <div class="row">
+         
+        <h6 class="mx-auto" style=" font-family: Arial, Helvetica, sans-serif;"><mat-icon>person_outline</mat-icon> Already have an account? <a href="#" style="color: black; text-decoration: none ;font-family: Arial, Helvetica, sans-serif;"><b>Signin</b></a></h6><br><br>
+    </div> -->
+    <div class=container>
+    <div class="shadow-lg p-3 mb-30 bg-white rounded" >
+    
+                <h5 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">LET'S START ORDERING<br>Order Online or find KFC by using your location</h5>
+    <a routerLink="delivary"  class="button button5">DELIVERY</a>
+    <a routerLink="takeaway"class="button button5">TAKEAWAY</a>
+    <router-outlet></router-outlet>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let z of data">
+                <td><img src="{{z.pic}}"></td>
+                <td>{{z.name}}</td>
+                <td><button class="btn1" (click)="sub(z.id)" >-</button>{{z.quantity}}<button class="btn1" (click)="add(z.id)">+</button></td>
+                <td>{{z.qprice}}</td>
+                <td><button (click)="fun(z.id)" [ngClass]="['btun']">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="margin:20px">
+        <div class="row">
+        <input style="width: 80%" [(ngModel)]="cpnname" class="form-control" placeholder="type coupon name" list="coupon">
+        <datalist id="coupon">
+                <option value="FIRSTUSER">
+                <option value="KFCIT">
+              </datalist>
+        <button type="submit" (click)="cpnfun()" [ngClass]="['cpnbtn']" [disabled]="btns" data-toggle="modal" data-target="#exampleModalCenter">apply coupon</button>
+    </div>
+    <div *ngIf="mdsat">
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">COUPON APPLIED</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-center" [ngClass]="['mdtext']">Your coupon is applied Successfully</p>
+                  <p class="text-center" [ngClass]="['mdtext']">you got</p>
+                  <p class="text-center" [ngClass]="['mdnum']">&#x20b9;{{discount}}</p>
+                  <p class="text-center" [ngClass]="['mdtext']">discount</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+    <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>Grand Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td>Items total</td>
+                    <td></td>
+                    <td>{{itemtotal}}</td>
+                    <td></td>
+                </tr>
+                <tr >
+                        <td>delivery charges</td>
+                        <td></td>
+                        <td>{{dcharges}}</td>
+                        <td></td>
+                    </tr>
+                    <tr >
+                            <td>discout</td>
+                            <td></td>
+                            <td>{{discount}}</td>
+                            <td></td>
+                        </tr>
+                        <tr >
+                            <td>Amout to pay</td>
+                                <td></td>
+                                <td>{{atp}}</td>
+                                <td></td>
+                            </tr>
+            </tbody>
+        </table>
+        <br><br><br>
+        <div class="row">
+        <button  [ngClass]="['btn','mx-auto']">Procced</button>
+    </div>
+        <br><br><br>
+    </div>
+
+
+
+ 
+
+   
